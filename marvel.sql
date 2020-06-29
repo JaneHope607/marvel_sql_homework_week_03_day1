@@ -104,7 +104,7 @@ SELECT name FROM people;
 
 -- 3. Oops! Someone spelled Krusty The Clown's name wrong! Change it to reflect the proper spelling (Crusty should be Krusty).
 
-
+UPDATE people SET name = 'Krusty the Clown' WHERE name = 'Crusty the Clown';
 
 -- 4. Return ONLY Homer Simpson's name from the 'people' table.
 

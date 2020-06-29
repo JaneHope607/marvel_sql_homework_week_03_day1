@@ -80,7 +80,7 @@ SELECT * FROM movies;
 
 -- 2. Return ONLY the name column from the 'people' table
 
-SELECT name FROM people;
+
 
 --   name         
 -- ----------------------
